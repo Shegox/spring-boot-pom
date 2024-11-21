@@ -18,9 +18,9 @@
     <jdk.version>17</jdk.version>
     
 
-    <spring.boot.version>2.2.5</spring.boot.version>
-    <spring.boot.minor>2.2</spring.boot.minor>
-    <spring.boot.major>2</spring.boot.major>
+    <spring.boot.version>3.3.6</spring.boot.version>
+    <spring.boot.minor>3.3</spring.boot.minor>
+    <spring.boot.major>3</spring.boot.major>
   </properties>
 
   <dependencyManagement>

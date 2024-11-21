@@ -16,8 +16,8 @@
     <!-- DEPENDENCIES VERSION -->
     <jdk.version>17</jdk.version>
     <!-- KEEP THE SPRING BOOT VERSIONS IN THIS ORDER -->
-    <spring.boot.version>2.7.15</spring.boot.version>
-    <spring.boot.major>2</spring.boot.major>
+    <spring.boot.version>2.6.2</spring.boot.version>
+    <spring.boot.major>2.6</spring.boot.major>
 
   </properties>
 

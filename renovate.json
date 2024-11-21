@@ -9,6 +9,12 @@
       ],
       "groupName": "org.springframework.boot:spring-boot",
       "registryUrls":["https://repo.maven.apache.org/maven2"]
+    },
+    {
+    "matchPackageNames": [
+        "org.springframework.boot:spring-boot-maven-plugin"
+    ],
+    "enabled": false  
     }
   ],
   "customManagers": [

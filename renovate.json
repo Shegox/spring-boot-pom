@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Group spring-boot-together",
+      "matchPackageNames": [
+        "org.springframework.boot:spring-boot"
+      ],
+      "groupName": "org.springframework.boot:spring-boot"
+    }
+  ],
+  "regexManagers": [
+    {
+      "description": "Regex manager to manage `<spring.boot.major>` inside of pom.xml with the version from `org.springframework.boot:spring-boot`",
+      "fileMatch": [
+        "^pom\\.xml$"
+      ],
+      "matchStrings": [
+        "<spring\\.boot\\.major>(?<currentValue>.*)<\\/spring\\.boot\\.major>"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "org.springframework.boot:spring-boot",
+      "extractVersionTemplate": "^(?<version>\\d+)"
+    }
+  ]
+}

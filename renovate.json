@@ -20,7 +20,7 @@
       ],
       "datasourceTemplate": "maven",
       "depNameTemplate": "org.springframework.boot:spring-boot",
-      "extractVersionTemplate": "^(?<version>\\d+)"
+      "extractVersionTemplate": "^(?<version>\\d+\\.\\d+)"
     }
   ]
 }

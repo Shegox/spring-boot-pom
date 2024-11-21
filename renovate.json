@@ -36,7 +36,8 @@
       "customType": "regex",
       "description": "Regex manager to manage `<spring.boot.major>` inside of pom.xml with the version from `org.springframework.boot:spring-boot`",
       "fileMatch": [
-        "^pom\\.xml$"
+        "^pom\\.xml$",
+        "^a\\.pom\\.xml$"
       ],
       "matchStrings": [
         "<spring\\.boot\\.major>(?<currentValue>.*)<\\/spring\\.boot\\.major>"
